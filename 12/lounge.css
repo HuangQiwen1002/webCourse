@@ -11,11 +11,11 @@ p {
   color: maroon;
 }
 
-p .cname {
+p.cname {
   color: blue;
 }
 
-p #iname {
+p#iname {
   color: green;
 }
 
