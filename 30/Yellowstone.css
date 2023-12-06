@@ -1,8 +1,47 @@
 .Wildlife {
-  align-items: center;
+  text-align: center;
+}
+
+.text1 {
+  text-align: center;
+}
+
+.text2 {
+  text-align: center;
+}
+
+.Text {
+  text-align: center;
 }
 
 .table {
-  border-color: black;
   text-align: center;
+}
+
+.us_flag_small {
+  text-align: center;
+}
+
+.img1 {
+  display: inline;
+  width: 16.3cm;
+  height: 16.3cm;
+}
+
+.img2 {
+  display: inline;
+  width: 16.3cm;
+  height: 16.3cm;
+}
+
+.img3 {
+  display: inline;
+  width: 16.3cm;
+  height: 16.3cm;
+}
+
+.img4 {
+  display: inline;
+  width: 16.3cm;
+  height: 16.3cm;
 }
