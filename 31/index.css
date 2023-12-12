@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.update {
+    text-align: right;
+    margin: 50px 0px;
+}
+
+.question {
+    width: 558px;
+    border: 1px solid #e5e5e5;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.banner {
+    font-size: 1.06rem;
+    line-height: 1.5;
+    background-color: #f0f0f0;
+    width: 542px;
+    height: 22px;
+    font-size: .8rem;
+    font-weight: normal;
+    margin-right: 50px;
+    padding-left: 1rem;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.wapper {
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.banner-inner {
+    padding-left: 1rem;
+    width: 100%;
+    height: 15px;
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.question input {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+label.answer1 {
+    font-size: 16px;
+    color: #1b1b1b;
+    flex: 1;
+     /* 让 label 占据剩余的空间，以保证在 Flex 容器中水平居中对齐 */
+}
+
+.option1,
+.option2 {
+    display: flex;
+     /* 设置为 Flex 容器 */
+    align-items: center;
+     /* 垂直居中对齐子元素 */
+    width: 480px;
+    height: 40px;
+    border: 2px solid #e1e1e1;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.row {
+    width: 100%;
+    /* Make the row full-width */
+    display: flex;
+}
+
+.row img {
+    width: 100%;
+    height: 100%;
+}
+
+.row span {
+    font-size: 1.125rem;
+    line-height: 1.16;
+    font-weight: bold;
+    padding: .3125rem .5rem .4375rem;
+    background-color: rgba(29, 23, 18, 0.7);
+    display: block;
+    color: white;
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+}
+
+.buttom {
+    padding-top: 20px;
+    width: 100%;
+    height: 230px;
+    display: flex;
+    background-image: url("image/buttom.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.buttom h4 {
+    margin: 0;
+}
+
+.buttom1 {
+    padding-left: 45px;
+}
+
+.buttom1,
+.buttom2,
+.buttom3 {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.buttom2 {
+    width: 256px;
+    height: 114px;
+    margin-left: 17%;
+}
+
+.buttom2 p {
+    padding-left: 40px;
+}
+
+.buttom3 {
+    width: 265px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    /* 移除默认的列表样式（圆点） */
+}
+
+ul img {
+    margin-right: 8px;
+}
+
+/* 样式化列表项文本，根据需要调整 */
+ul li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+table {
+    width: 265px;
+    height: 130px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+
+table img {
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
+.title {
+    font-weight: normal;
+}
