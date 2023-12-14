@@ -1,120 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" type="text/css" href="Yellowstone.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellowstone National Park (U.S. National Park Service)</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-  <div>
-    <figure>
-      <img src="images/Wildlife.jpg" alt="Wildlife" width="1120px" height="130px">
-      <figcaption style="font-size: 14px;">
-        Enjoy watching Yellowstone's animals but STAY SAFE. They are WILD and DANGEROUS. Know your distance.
-      </figcaption>
-    </figure>
-  </div>
-  <div class="update">
-    <p style="text-align: right;">Last updated: October 31, 2023</p>
-  </div>
-
-  <div class="question">
-    <div class="wapper">
-      <form class="#">
-        <div class="header">
-          <h3>Was this page helpful?</h3>
+    <div>
+        <div class="Wildlife">
+            <img src="images/Wildlife.jpg" alt="Wildlife">
+        <div class="text1">
+                Enjoy watching Yellowstone's animals but STAY SAFE. They are WILD and DANGEROUS. Know your distance.
         </div>
-  <div class="answer">
-    <div class="answer1">
-        <input type="radio" name="answer" class="answer1">
-        <label class="answer1">Yes</label>
+        </div>
     </div>
-    <div class="answer2">
-        <input type="radio" name="answer" class="answer2">
-        <label class="answer2">No</label>
+    <div class="update">
+        <p>Last updated: October 31, 2023</p>
     </div>
-  </div>
-      </form>
+    <div class="question">
+        <div class="wrapper">
+            <form class="table">
+                <div class="header">
+                    <h3>Was this page helpful?</h3>
+                </div>
+                <div class="option">
+                    <div class="option1">
+                        <input type="radio" name="answer" value="answer1">
+                        <!-- input 定义用户可输入数据的输入字段 例如登录页面的用户名和密码框 -->
+                        <!-- radio  单选按钮 允许用户从多个选项中选择一个 多个单元按钮应具有相同的'name'属性以进行分组 -->
+                        <label class="answer1">Yes</label>
+                        <!-- label 为input元素定义标记 可设置for属性 用于把label绑定到另一个元素 -->
+                    </div>
+                    <div class="option2">
+                        <input type="radio" name="answer" value="answer2">
+                        <label for="answer2">No</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="banner">
+            <div class="banner-inner">
+                <div class="flag">
+                    <img src="images/US.png" alt="US">
+                    <span> An official form of the United States government. Provided by </span>
+                    <span class="text2">Touchpoints</span>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="row">
+        <div class="content1">
+            <img src="images/1.jpg" alt="Current Conditions">
+            <span>Current Conditions</span>
+        </div>
+        <div class="content1">
+            <img src="images/2.jpg" alt="Seasons">
+            <span>Seasons</span>
+        </div>
+        <div class="content1">
+            <img src="images/3.jpg" alt="Operating Dates">
+            <span>Operating Dates</span>
+        </div>
+        <div class="content1">
+            <img src="images/4.jpg" alt="Stay on Boardwalks">
+            <span>Stay on Boardwalks</span>
+        </div>
+    </div>
+    <div class="buttom">
+        <div class="buttom1">
+            <p>Contact Info</p>
+            <div class="card">
+                <h4>Mailing Address:</h4>
+                <span>PO Box 168</span>
+                <br>
+                <span>Yellowstone National Park, WY 82190-0168</span>
+            </div>
+            <br>
+            <h4>Phone:</h4>
+            <span>307-344-7381</span>
+            <br>
+            <br>
+            <h4>
+                Contact Us >
+            </h4>
+        </div>
+        <div class="buttom2">
+            <div>
+                <p>TOOLS</p>
+                <ul>
+                    <li><img src="images/tool1.png" alt="FAQ"> FAQ</li>
+                    <li><img src="images/tool2.png" alt="Site Index"> Site Index</li>
+                    <li><img src="images/tool3.png" alt="Espanol"> Espanol</li>
+                </ul>
+            </div>
+        </div>
+        <div class="buttom3">
+            <table>
+                <tr>
+                    <td class="title">STAY CONNECTED</td>
+                </tr>
+                <tr>
+                    <td><img src="images/facebook.png" alt="Facebook"> Facebook</td>
+                    <td><img src="images/twitter.png" alt="Twitter"> Twitter</td>
+                </tr>
+                <tr>
+                    <td><img src="images/instagram.png" alt="Instagram"> Instagram</td>
+                    <td><img src="images/Youtube.png" alt="YouTube"> YouTube</td>
+                </tr>
+                <tr>
+                    <td><img src="images/Flickr.png" alt="Flickr"> Flickr</td>
 
-  <div class="banner">
-    <div class="banner-inner">
-      <div><img src="images/us.png" alt="us" height="11px" width="16px">
-        <scan> An official form of the United States government. Provided by </scan>
-        <scan style="font-weight: bold;">Touchpoints</scan>
-      </div>
+                </tr>
+            </table>
+        </div>
     </div>
-  </div>
-  </div>
-
-  <div class="row">
-    <div class="content1">
-      <img src="images/Current Conditions.jpg" alt="Current Conditions">
-      <span>Current Conditions</span>
-    </div>
-    <div class="content1">
-      <img src="images/Seasons.jpg" alt="Seasons">
-      <span>Seasons</span>
-    </div>
-    <div class="content1">
-      <img src="images/Operating Dates.jpg" alt="Operating Dates">
-      <span>Operating Dates</span>
-    </div>
-    <div class="content1">
-      <img src="images/Stay on Boardwalks.jpg" alt="Stay on Boardwalks">
-      <span>Stay on Boardwalks</span>
-    </div>
-  </div>
-
-  <div class="buttom">
-    <div class="buttom1">
-      <p>Contact Info</p>
-    <div class="card">
-      <h4>Mailing Address:</h4>
-      <span>PO Box 168</span>
-    <br>
-      <span>Yellowstone National Park, WY 82190-0168</span>
-    </div>
-    <br>
-      <h4>Phone:</h4>
-      <span>307-344-7381</span>
-    <br>
-    <br>
-      <h4>
-        Contact Us >
-      </h4>
-    </div>
-    <div class="buttom2">
-      <div>
-        <p>TOOLS</p>
-        <ul>
-          <li><img src="image/tool1.png" alt=""> FAQ</li>
-          <li><img src="image/tool2.png" alt=""> Site Index</li>
-          <li><img src="image/tool3.png" alt=""> Espanol</li>
-        </ul>
-      </div>
-    </div>
-    <div class="buttom3">
-      <table>
-        <tr>
-          <td class="title">STAY CONNECTED</td>
-        </tr>
-        <tr>
-          <td><img src="image/logo1.png" alt=""> Facebook</td>
-          <td><img src="image/logo4.png" alt=""> Twitter</td>
-        </tr>
-        <tr>
-          <td><img src="image/logo2.png" alt=""> Instagram</td>
-          <td><img src="image/logo5.png" alt=""> You Tube</td>
-        </tr>
-        <tr>
-          <td><img src="image/logo3.png" alt=""> Flickr</td>
-        </tr>
-      </table>
-    </div>
-  </div>
-
 </body>
+
 </html>
